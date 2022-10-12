@@ -1,0 +1,7 @@
+arini=read.delim("clipboard")
+View(arini)
+t.test(arini$Volume, conf.level = 0.95)
+
+arini=read.delim("clipboard")
+View(arini)
+t.test(arini$Volume, conf.level = 0.5)
